@@ -1,0 +1,79 @@
+.qorap1{
+    color:blue;
+    background-color:blue;
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+    transition-duration: 3s;
+    border-radius: 20px;
+  
+    
+}
+.qorap1:hover{
+     background-color: #f09fab;
+     transform: scale(1.5) rotate(360deg);;
+}
+.qorap{
+    border: 2px solid rgb(30, 255, 0);
+    width: 1000px;
+    height: 150px;
+    color: gray;
+}
+
+.don{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 400px;
+    background-color: red;
+   
+    animation-name: my-animation;
+    transition-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes my-animation{
+    0%{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    50% {
+        margin-left: 900px;
+        margin-right: 900px;
+    }
+    100% {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+.dom{
+    border: 16px solid white; 
+    border-radius: 50%;
+    border-top: 16px solid blue;
+    width: 120px;
+    height: 120px;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    margin: 10px;
+    animation-name: dom;
+}
+@keyframes dom{
+    0%{ 
+        transform: rotate(0deg); 
+    }
+    50%{ 
+        transform: rotate(180deg); 
+    } 
+    100%{
+        transform: rotate(360deg); 
+    } 
+    100%{ 
+        transform: rotate(360deg); 
+    } 
+    50%{ 
+        transform: rotate(180deg); 
+    }
+    0%{
+         transform: rotate(0deg); 
+    } 
+}
